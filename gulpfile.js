@@ -8,7 +8,6 @@ var gulp = require('gulp'),
 
 // Scripts Task
 gulp.task('scripts', function(){
-	//gulp.src(['src/js/**/*.js', '!src/js/config.js'])
 	gulp.src(['src/js/**/*.js'])
 		.pipe(plumber())
 		.pipe(concat('emoji.min.js'))
