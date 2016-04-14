@@ -59,8 +59,7 @@ emojiApp.directive('contenteditable', [ '$sce', function($sce) {
       // Write data to the model
       function read() {
         var html = element.html();
-        // When we clear the content editable the browser leaves a <br>
-        // behind
+        // When we clear the content editable the browser leaves a <br> behind
         // If strip-br attribute is provided then we strip this out
         if (attrs.stripBr && html == '<br>') {
           html = '';
