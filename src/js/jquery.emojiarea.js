@@ -272,12 +272,11 @@
 		var style = 'display:inline-block;';
 		style += 'width:' + iconSize + 'px;';
 		style += 'height:' + iconSize + 'px;';
-		style += 'background:url(\'' + filename.replace('!', category) + '\') '
-				+ xoffset + 'px ' + yoffset + 'px no-repeat;';
+		style += 'background-position: ' + xoffset + 'px ' + yoffset + 'px;';
 		style += 'background-size:' + scaledWidth + 'px ' + scaledHeight
-				+ 'px;';
-		return '<img src="/assets/angular-chat-emoji-popup/dist/img/blank.gif" class="img" style="'
-				+ style + '" alt="' + util.htmlEntities(name) + '">';
+			+ 'px;';
+
+		return '<img class="emoji-img '+ filename.replace('!', category) +'" style="' + style + '" alt="' + util.htmlEntities(name) + '" title="' + util.htmlEntities(name) + '"/>';
 	};
 
 	$.emojiarea.createIcon = EmojiArea.createIcon;

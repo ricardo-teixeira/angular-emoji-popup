@@ -246,7 +246,7 @@ emojiApp.directive('emojiForm', ['$timeout', '$http', '$interpolate','$compile',
 
             $(document).off('paste', onPasteEvent);
             $(document).off('keydown', onKeyDown);
-            $(submitBtn).off('mousedown')
+            //$(submitBtn).off('mousedown')
             fileSelects.off('change');
             if (richTextarea)
             {

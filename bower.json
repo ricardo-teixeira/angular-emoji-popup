@@ -1,6 +1,6 @@
 {
   "name": "angular-chat-emoji-popup",
-  "version": "v1.1.2",
+  "version": "v1.2.0",
   "homepage": "https://github.com/ricardo-teixeira/angular-emoji-popup",
   "description": "Angular based Emoji Popup along with filters for encoding/decoding emojis",
   "main": ["src/js/emoji.js", "src/css/emoji.css"],
