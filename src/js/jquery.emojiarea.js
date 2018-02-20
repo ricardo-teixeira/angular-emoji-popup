@@ -276,7 +276,7 @@
 		style += 'background-size:' + scaledWidth + 'px ' + scaledHeight
 			+ 'px;';
 
-		return '<img class="emoji-img '+ filename.replace('!', category) +'" style="' + style + '" alt="' + util.htmlEntities(name) + '" title="' + util.htmlEntities(name) + '"/>';
+		return '<span class="emoji-img '+ filename.replace('!', category) +'" style="' + style + '" alt="' + util.htmlEntities(name) + '" title="' + util.htmlEntities(name) + '"/>';
 	};
 
 	$.emojiarea.createIcon = EmojiArea.createIcon;

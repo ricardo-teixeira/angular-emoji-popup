@@ -1,8 +1,11 @@
 {
   "name": "angular-emoji-popup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An angular module to serve multiple purpose:",
-  "main": ["src/js/emoji.js", "src/css/emoji.css"],
+  "main": [
+    "src/js/emoji.js",
+    "src/css/emoji.css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
